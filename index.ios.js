@@ -11,7 +11,7 @@ import {
     Text,
     View
 } from 'react-native';
-
+var my = "heihei";
 var Main = require("./component/Main");
 export default class DouBanDemo extends Component {
     render() {

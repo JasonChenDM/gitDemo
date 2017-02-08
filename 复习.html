@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function sportBrand(brand,price, style) {
+        this.brand = brand;
+        this.price = price;
+        this.style = style;
+    }
+    sportBrand.prototype.intro = function () {
+        alert("品牌是"+this.brand);
+    }
+    var issportBrand = new sportBrand("阿迪达斯","1000","足球")
+    issportBrand.intro();
+</script>
+</body>
+</html>
